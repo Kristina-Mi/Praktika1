@@ -1,0 +1,100 @@
+.start_port {
+  align-items: center;
+  margin: 2vh 0vw;
+}
+
+.text p:first-child {
+  font-size: calc(12px + 1vh);
+  font-weight: 600;
+  margin: 2vh 5vw;
+}
+
+.text p:last-child {
+  font-size: calc(15px + 2.5vw);
+  font-weight: bold;
+  margin: 0 5vw;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #E62872;
+  background-color: #E62872;
+  border-radius: 10px;
+  padding: 3vh 1vw;
+  -moz-column-gap: 1vw;
+       column-gap: 1vw;
+}
+
+.btn img {
+  width: 1.5vw;
+}
+
+.btn {
+  font-size: calc(10px + 1vh);
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #E62872;
+  background-color: white;
+}
+.btn:hover img {
+  border: 1px solid #E62872;
+  background-color: #E62872;
+  border-radius: 15px;
+}
+
+.portfolio_item p {
+  margin: 0 1.5vw;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1.5vh;
+}
+
+.portfolio_item img {
+  width: 28vw;
+  margin-bottom: 2vh;
+}
+
+.arrow img {
+  width: 1vw;
+  margin-top: 1.5vh;
+}
+
+.portfolio_items {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 2vw;
+       column-gap: 2vw;
+  margin-left: 5vw;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+
+.portfolio_item {
+  display: flex;
+  flex-direction: column;
+  width: 28vw;
+  box-shadow: 3px 3px 7px rgba(160, 154, 160, 0.4), -3px -3px 7px rgba(160, 154, 160, 0.4);
+  border-radius: 5px;
+  row-gap: 2vh;
+}
+
+.portfolio_item p:nth-child(2) {
+  font-weight: bold;
+  font-size: calc(12px + 0.8vw);
+}
+
+.portfolio_item p:nth-child(3) {
+  font-size: calc(10px + 1vh);
+}
+
+.arrow p {
+  font-weight: 600;
+}/*# sourceMappingURL=my_portfolio.css.map */

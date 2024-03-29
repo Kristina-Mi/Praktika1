@@ -1,0 +1,49 @@
+.intro img{
+    width: 50vw;
+}
+
+.intro{
+    @include fl(flex, row);
+    padding: 15vh 0;
+    background-color: #F5FCFF;
+    align-items: center;
+    box-shadow: inset 0 5px 30px rgba($color: #a09aa0, $alpha: 0.3);
+}
+
+.introduction{
+    @include fl(flex, column);
+    align-items: flex-start;
+    row-gap: 6vh;
+    margin: 0 2vh 0 5vw;
+}
+
+.introduction p{
+    font-size: calc(12px + 1vh);
+}
+
+.introduction p:nth-child(2){
+    font-size: calc(15px + 2.5vw);
+    font-weight: bold;
+}
+
+.introduction p:first-child{
+    font-weight: 600;
+}
+
+.introduction p:nth-child(3){
+    font-size: calc(8px + 0.8vw);
+}
+
+.introduction p:last-child{
+    border: 1px #5E3BEE solid;
+    background-color: #5E3BEE;
+    border-radius: 4px;
+    padding: 3vh 1.5vw;
+    color: white;
+}
+
+.introduction p:last-child:hover{
+    cursor: pointer;
+    color: #5E3BEE;
+    background-color: #F5FCFF;
+}

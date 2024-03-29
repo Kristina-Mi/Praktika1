@@ -1,0 +1,30 @@
+.about_me img{
+    width: 50vw;
+}
+
+.about_me{
+    @include fl(flex, row);
+    padding: 5vh 2vw 15vh 5vw;
+    align-items: center;
+}
+
+.about{
+    @include fl(flex, column);
+    align-items: flex-start;
+    row-gap: 6vh;
+    margin: 0 2vh 0 5vw;
+}
+
+.about p{
+    font-size: calc(12px + 1vh);
+}
+
+.about p:nth-child(2){
+    font-size: calc(15px + 2.5vw);
+    font-weight: bold;
+}
+
+.about p:first-child{
+    font-weight: 600;
+}
+

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh 0;
+}
+
+nav p {
+  font-size: calc(8px + 0.5vw);
+  font-weight: normal;
+  margin: 0 0.5vw;
+}
+
+nav p:hover {
+  color: #5E3BEE;
+  cursor: pointer;
+}
+
+nav img {
+  width: 10vw;
+  margin-left: 2vw;
+  margin-right: 15vw;
+}
+
+.contactme {
+  border: 1px #5E3BEE solid;
+  border-radius: 3px;
+  padding: 3vh 1.5vw;
+  color: #5E3BEE;
+  margin-left: 15vw;
+  margin-right: 2vw;
+}
+
+.contactme:hover {
+  color: white;
+  background-color: #5E3BEE;
+}/*# sourceMappingURL=nav.css.map */

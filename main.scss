@@ -1,0 +1,22 @@
+@mixin fl($d, $f){
+    display: $d;
+    flex-direction: $f;
+}
+
+* {
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+@import "block/nav.scss";
+@import "block/intro.scss";
+@import "block/expertise.scss";
+@import "block/about.scss";
+@import "block/my_portfolio.scss";
+@import "block/reviews.scss";
+@import "block/form.scss";
+@import "block/footer.scss";
+

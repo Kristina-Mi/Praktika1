@@ -1,0 +1,60 @@
+.expertise {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 2vh;
+  padding: 15vh 0 3vh 0;
+}
+
+.start {
+  margin-bottom: 10vh;
+}
+
+.start p:first-child {
+  font-size: calc(10px + 1vh);
+  font-weight: 600;
+  margin: 2vh 5vw;
+}
+
+.start p:last-child {
+  font-size: calc(15px + 2.5vw);
+  font-weight: bold;
+  margin: 2vh 5vw;
+}
+
+.exp_items {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  -moz-column-gap: 2vw;
+       column-gap: 2vw;
+  margin: 0 2vw 0 5vw;
+}
+
+.exp_item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #F5FCFF;
+  border-radius: 10px;
+  background-color: #F5FCFF;
+  row-gap: 2vh;
+  padding: 2vh 1vw;
+}
+
+.exp_item img {
+  width: 25%;
+}
+
+.exp_item p {
+  margin: 0 1vw;
+}
+
+.exp_item p:nth-child(2) {
+  font-weight: bold;
+  font-size: calc(12px + 0.8vw);
+}
+
+.exp_item p:last-child {
+  font-size: calc(10px + 1vh);
+}/*# sourceMappingURL=expertise.css.map */

@@ -1,0 +1,60 @@
+.name_text{
+    @include fl(flex, column);
+}
+
+.Name{
+    @include fl(flex, row);
+    align-items: center;
+    column-gap: 1vw;
+}
+
+.reviews_item{
+    @include fl(flex, column);
+    align-items: flex-start;
+    width: 30%;
+    border: 1px solid #006B6A;
+    border-radius: 5px;
+    padding: 2vw 3vh;
+    row-gap: 5vh;
+}
+
+.reviews_items{
+    @include fl(flex, row);
+    column-gap: 5vh;
+}
+
+.reviews{
+    @include fl(flex, column);
+    align-items: flex-start;
+    font-size: calc(10px + 1vh);
+    padding: 15vh 4vw 15vh 5vw;
+    background-color: #F5FCFF;
+}
+
+img[alt="stars"]{
+    width: 8vw;
+}
+
+img[alt="Man"]{
+    width: 4vw;
+}
+
+.name_text p:first-child{
+    font-weight: 600;
+}
+
+.start2 {
+    margin-bottom: 10vh;
+}
+
+.start2 p:first-child{
+    font-size: calc(10px + 1vh);
+    font-weight: 600;
+    margin: 2vh 0;
+}
+
+.start2 p:last-child{
+    font-size: calc(15px + 2.5vw);
+    font-weight: bold;
+    margin: 2vh 0;
+}
